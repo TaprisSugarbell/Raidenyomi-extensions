@@ -6,7 +6,6 @@
         "url" : "https://manhwaweb.com/",
         "version": "0.0.1"
     },
-    [
     {
         "Name": "Manganato",
         "logo" :"https://raw.githubusercontent.com/Halludba71/Shogan-Extensions/main/manganato/logo.png",
@@ -14,5 +13,4 @@
         "url" : "https://manganato.com/",
         "version": "0.0.1"
     }
-]
 ]
