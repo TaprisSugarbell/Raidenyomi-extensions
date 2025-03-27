@@ -2,7 +2,7 @@
     {
         "Name": "Test",
         "logo" :"https://raw.githubusercontent.com/Halludba71/Shogan-Extensions/main/manganato/logo.png",
-        "source" : "https://raw.githubusercontent.com/TaprisSugarbell/Raidenyomi-extensions/master/extensions/test/source.py",
+        "source" : "https://raw.githubusercontent.com/TaprisSugarbell/Raidenyomi-extensions/refs/heads/master/extensions/test/source.py",
         "url" : "https://manhwaweb.com/",
         "version": "0.0.1"
     },
