@@ -16,7 +16,7 @@ def SearchManga(query):
         try:
             items = requests.get(
                 f"https://manhwawebbackend-production.up.railway.app/manhwa/"
-                f"library?buscar{query}&estado=&tipo=&erotico=&demografia=&order_item=alfabetico&order_dir=desc&page=0&generes="
+                f"library?buscar={query}&estado=&tipo=&erotico=&demografia=&order_item=alfabetico&order_dir=desc&page=0&generes="
             ).json()
             Results = {}
             for item in items["data"]:
