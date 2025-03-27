@@ -68,8 +68,9 @@ def GetChapters(manga_url):
             Chapters = []
             for chap in content["chapters"][::-1]:
                 ChapterName = f"Chapter {chap['chapter']}"
-                ChapterLink = chap["link"]
-                Chapters.append({"name": ChapterName, "url": ChapterLink})
+                ChapterLink = chap.get("link")
+                if ChapterLink:
+                    Chapters.append({"name": ChapterName, "url": ChapterLink})
             return Chapters
         except Exception as e:
             print(e)
