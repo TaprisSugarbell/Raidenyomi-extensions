@@ -50,7 +50,7 @@ def GetMetadata(manga_url):
             }
             return mangaInfo
         except Exception as e:
-            print(e)5
+            print(e)
             return -1
     else:
         return -1
